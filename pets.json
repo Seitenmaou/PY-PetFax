@@ -1,5 +1,11 @@
 [
     {   
+        "pet_id": 0,
+        "pet_name": "TEST",
+        "pet_photo": "TEST",
+        "pet_fact": "TEST DESCRIPTION"
+    },
+    {   
         "pet_id": 1,
         "pet_name": "Kiko",
         "pet_photo": "https://raw.githubusercontent.com/HackerUSA-CE/petfax-app/main/assets/alvan-nee-ZCHj_2lJP00-unsplash.jpg?token=AGGJTZ5IZBINFYIOCE3C4JDBIJXEC",

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+       <form>
+            <h1>Add a new fact!</h1>
+            <label for="name">Submitter Name: </label>
+            <input type="text" id="name"/>
+            <br>
+            <label for="fact">Fact: </label>
+            <textarea type="fact" id="fact" rows="4">
+            </textarea>
+            <br>
+            <button action="">SUBMIT</button>
+       </form>
+    </body>
+</html>
